@@ -1,0 +1,6 @@
+create new database
+php artisan migrate
+php artisan db:seed 
+or 
+php artisan migrate:refresh
+php artisan db:seed 
