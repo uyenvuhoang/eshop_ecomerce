@@ -30,8 +30,5 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-    'google' => [
-        'redirect' => 'http://127.0.0.1:8000/google-callback'
-    ],
 
 ];
